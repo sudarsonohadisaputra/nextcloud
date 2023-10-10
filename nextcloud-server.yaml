@@ -16,9 +16,8 @@ spec:
     spec:
       containers:
       - name: nextcloud
-        image: nextcloud:latest-apache
-        ports:
-        - containerPort: 80
+        image: nextcloud:16-apache
+
 ---
 apiVersion: v1
 kind: Service
