@@ -33,6 +33,7 @@ metadata:
   labels:
     app: nextcloud
 spec:
+  type: ClusterIP
   selector:
     pod-label: nextcloud-server-pod
   ports:
